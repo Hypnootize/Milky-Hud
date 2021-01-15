@@ -34,6 +34,23 @@
 		"fillcolor"		"MilkyBG"
 		"PaintBackgroundType""0"
 	}	
+	"MilkyBGlow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MilkyBGlow"
+		"xpos"		"72"
+		"ypos"		"15"
+		"zpos"		"2"
+		"wide"		"84"
+		"tall"		"38"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"MilkyNegative"
+		"PaintBackgroundType""0"
+		"alpha"	"0"
+	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
