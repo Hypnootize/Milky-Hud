@@ -29,12 +29,6 @@
 		"ping_width"		"23"
 		"killstreak_width"	"12"
 		"killstreak_image_width" "12"
-
-		if_mvm
-		{
-			"ypos_minmode"	"0"
-			"tall_minmode"	"516"
-		}
 	}
 	"BlueScoreBG"
 	{
@@ -112,6 +106,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "MilkyFG"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"BlueStripe"
@@ -133,6 +132,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "MilkyBLU"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"RedStripe"
@@ -154,6 +158,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "MilkyRED"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"MainBG"
@@ -178,40 +187,7 @@
 		
 		if_mvm
 		{
-			"wide"		"356"
-			"wide_minmode"	"356"
-			"xpos"		"45"
-			"xpos_minmode"	"45"
-			"ypos_minmode"	"144"
-			"tall"		"148"
-			"tall_minmode"	"148"			
-		}
-	}		
-
-	"CreditsBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"CreditsBG"
-		"xpos"		"401"
-		"xpos_hidef"	"14"
-		"ypos"		"144"
-		"zpos"		"0"
-		"wide"		"153"
-		"tall"		"148"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"3"	
-		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			"visible"	"1"			
+			"visible"		"0"
 		}
 	}
 				
@@ -492,13 +468,7 @@
 
 		if_mvm
 		{
-			"xpos"		"312"
-			"xpos_minmode"	"312"
-			"ypos"		"131"
-			"ypos_minmode"	"131"
-			"wide"		"238"
-			"font_minmode"	"Gotham-Medium10"
-			"textAlignment_minmode"	"east"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
@@ -525,6 +495,11 @@
 		"linespacing"		"15"
 		"linespacing_minmode"	"14"
 		"fgcolor"		"blue"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedPlayerList"
 	{
@@ -550,6 +525,11 @@
 		"linespacing"		"15"
 		"linespacing_minmode"	"14"
 		"textcolor"		"red"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 			"BigBG"
@@ -572,6 +552,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"MilkyFG"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	
@@ -595,6 +580,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"MilkyFG"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 		"Line2"
 	{
@@ -616,6 +606,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"MilkyBG"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 			"Line3"
 	{
@@ -637,6 +632,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"MilkyBG"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	
@@ -660,6 +660,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Spectators"
 	{
@@ -718,6 +723,11 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerNameLabel"
 	{
@@ -736,6 +746,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"HorizontalLine"
 	{
@@ -756,6 +771,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerScoreLabel"
 	{
@@ -775,6 +795,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"MapName"
@@ -815,6 +840,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 
 		"DuelingLabel"
 		{
@@ -1059,8 +1089,8 @@
 
 		if_mvm
 		{
-			"ypos"		"292"
-			"ypos_minmode"	"292"
+			"wide"		"0"
+			"wide_minmode"		"0"
 		}
 
 	"KillsLabel"
@@ -1957,7 +1987,7 @@
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"10"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
