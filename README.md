@@ -1,7 +1,7 @@
 <div align="center">
 
 # Milky Hud 
-### By Revilo
+### By Broesel
 
 **[SCREENSHOTS](../screenshots/showcase.md)** -
 **[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
